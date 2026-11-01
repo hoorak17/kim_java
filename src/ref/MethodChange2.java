@@ -1,0 +1,19 @@
+package ref;
+
+public class MethodChange2 {
+
+    static void main() {
+        Data dataA = new Data();
+        dataA.value = 10;
+        System.out.println("메서드 호출 전 : dataA.value = " + dataA.value);
+        changeReference(dataA);
+        System.out.println("메서드 호출 후 : dataA.value = " + dataA.value);
+
+    }
+
+    private static void changeReference(Data datax) {
+        datax.value = 20;
+    }
+
+
+}
