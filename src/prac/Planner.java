@@ -16,8 +16,8 @@ public class Planner {
 
         copied.minutes = 100;
 
-        System.out.println(javaRecord.subject +" "+ javaRecord.minutes + "분");
-        System.out.println(osRecord.subject +" " + osRecord.minutes + "분");
+        System.out.println(javaRecord.subject + " " + javaRecord.minutes + "분");
+        System.out.println(osRecord.subject + " " + osRecord.minutes + "분");
         System.out.println("총 공부시간 : " + (javaRecord.minutes + osRecord.minutes) + "분");
 
 
